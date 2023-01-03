@@ -7,7 +7,7 @@ function countHours(year,holidays){
     let acumulador = 0
     for (let day of holidays){
         const fecha = new Date(`${year}/${day}`)
-        const diaActual = a.getDay()
+        const diaActual = fecha.getDay()
 
         if(diaActual === 0 || diaActual === 6){
             acumulador ++
@@ -15,7 +15,6 @@ function countHours(year,holidays){
     }
 
     return acumulador * 2
-    
 }
 
 countHours(year, holidays) // 2 días -> 4 horas extra en el año
