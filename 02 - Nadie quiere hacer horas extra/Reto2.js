@@ -1,6 +1,6 @@
 
-const year = 2022
-const holidays = ['01/06', '04/01', '12/25'] // formato MM/DD
+const year = 2023
+const holidays = ['21/02', '07/04', '01/05', 01/01] // formato MM/DD
 
 function countHours(year,holidays){
     
@@ -14,7 +14,7 @@ function countHours(year,holidays){
         }
 
     }
-
+    console.log(acumulador)
     return acumulador
 }
 
