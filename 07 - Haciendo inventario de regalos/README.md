@@ -23,7 +23,11 @@ Como ves, los almacenes pueden tener el mismo regalo repetido varias veces. Pero
 
 📝 Summary
 1.Crea una función getGiftsToRefill que reciba tres Array como parámetros.
+
 2.La función debe devolver un Array con los regalos que hay que reponer.
+
 3.Un regalo se debe reponer cuando sólo hay stock en uno de los tres almacenes.
-1.Si no hay ningún regalo que reponer, la función debe devolver un Array vacío.
+
+4.Si no hay ningún regalo que reponer, la función debe devolver un Array vacío.
+
 5.Si hay más de un regalo que reponer, la función debe devolver un Array con todos los regalos que hay que reponer.
