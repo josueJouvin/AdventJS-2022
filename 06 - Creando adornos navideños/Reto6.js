@@ -9,4 +9,5 @@ function createCube(size) {
   
     return row + rowReverse
 }
-  
+
+createCube(3)
