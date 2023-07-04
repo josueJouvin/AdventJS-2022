@@ -5,8 +5,8 @@ function getCompleted(part, total) {
     const tiempoPart = part.split(':')
     const tiempoTotal = total.split(':')
     
-    const partR = +tiempoPart[0] * 3600 + +tiempoPart[1] * 60 + +tiempoPart[2]
-    const totalR = +tiempoTotal[0] * 3600 + +tiempoTotal[1] * 60 + +Number(tiempoTotal[2])
+    const partR = Number(tiempoPart[0]) * 3600 + Number(tiempoPart[1]) * 60 + Number(tiempoPart[2])
+    const totalR = Number(tiempoTotal[0]) * 3600 + Number(tiempoTotal[1]) * 60 + Number(tiempoTotal[2])
     
     const maxComDiv = (a, b) => {
       let c;
