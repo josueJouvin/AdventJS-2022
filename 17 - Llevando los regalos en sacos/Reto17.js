@@ -6,7 +6,7 @@ function carryGifts(gifts, maxWeight) {
   const trineo = [];
   let saco = "";
 
-  gifts.map((gift, index) => {
+  gifts.forEach(gift => {
     if (saco.length + gift.length <= maxWeight) {
       saco = saco ? `${saco} ${gift}` : gift;
     } else {
